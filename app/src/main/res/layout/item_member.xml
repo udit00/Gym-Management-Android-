@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    >
+
+    <TextView
+        android:layout_width="19dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="4dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="Hello World"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:id="@+id/tv_member_roll_no"
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="64dp"
+        android:text="Udit Nair"
+        android:textSize="30sp"
+        android:gravity="end|center_vertical"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/tv_member_roll_no"
+        app:layout_constraintRight_toRightOf="parent"
+        android:id="@+id/tv_member_name"
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
