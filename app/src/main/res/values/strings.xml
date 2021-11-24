@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Gym Management</string>
+    <string-array name="search_helper_spinner_content">
+        <item>Phone Number</item>
+        <item>ID</item>
+        <item>Name</item>
+    </string-array>
 </resources>
