@@ -1,10 +1,10 @@
-package com.example.gymmanagement.Data
+package com.example.gymmanagement.data
 
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-@Database(entities = [Member::class], version = 1, exportSchema = false)
+@Database(entities = [Member::class], version = 1, exportSchema = true)
 abstract class MemberDatabase : RoomDatabase(){
 
     abstract fun memberDao(): MemberDao
